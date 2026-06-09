@@ -1,0 +1,40 @@
+/* Main Layout */
+.main {
+    padding-top: 1rem;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #0f172a;
+}
+
+/* Titles */
+h1 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-weight: 600 !important;
+}
+
+/* Metric Cards */
+div[data-testid="metric-container"] {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+/* Plotly Charts */
+.stPlotlyChart {
+    border: 1px solid #334155;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Tables */
+[data-testid="stTable"] {
+    border-radius: 12px;
+}
+
